@@ -1,0 +1,25 @@
+model:
+  base_model: "t5-base"           # Pre-trained from HuggingFace
+  pretrained_path: "./pretrained_models/t5-base"  # Local copy
+  train_only_custom_layers: true  # CRITICAL: Only train RAA
+  d_model: 512
+  n_heads: 8
+  
+training:
+  epochs: 5                       # NOT 50
+  batch_size: 8
+  learning_rate: 1e-4
+  warmup_steps: 100
+  gradient_accumulation_steps: 1
+  max_grad_norm: 1.0
+  
+data:
+  dataset_name: "story_cloze"     # Using a story dataset
+  max_source_length: 512
+  max_target_length: 128
+  tokenizer_name: "t5-base"
+  
+paths:
+  checkpoints: "./checkpoints"
+  results: "./results"
+  pretrained_models: "./pretrained_models"
