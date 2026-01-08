@@ -95,6 +95,8 @@ The project includes comprehensive evaluation and analysis in the `results/` dir
 ├── src/                     # Source code
 │   ├── model.py             # RAA model implementation
 │   ├── train.py             # Training logic
+|   ├── data_loader.py
+|   ├── inference.py
 │   └── utils.py             # Utility functions
 ├── results/                 # Results and analysis
 │   ├── Analysis_Reports/    # Technical reports
