@@ -100,10 +100,14 @@ The project includes comprehensive evaluation and analysis in the `results/` dir
 │   └── utils.py             # Utility functions
 ├── results/                 # Results and analysis
 │   ├── Analysis_Reports/    # Technical reports
+|   ├── baseline/
+|   ├── comparative/
 │   ├── Generated_Stories/   # Sample outputs
+|   ├── improved/
 │   ├── Performance_Summary/ # Metrics and comparisons
 │   └── Visualizations/      # Charts and graphs
 ├── config.yaml             # Configuration file
+├── experiments.ipynb       # Notebook
 ├── requirements.txt        # Dependencies
 └── README.md               # This file
 ```
