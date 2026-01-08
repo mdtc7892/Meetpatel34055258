@@ -1,9 +1,3 @@
-"""
-Reasoning-Aware Attention (RAA) for Storytelling
-Author: DNNLS Project Team
-Date: 2024
-"""
-
 import torch
 import torch.nn as nn
 import torch.nn.functional as F

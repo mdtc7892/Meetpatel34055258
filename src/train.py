@@ -8,7 +8,7 @@ from torch.cuda.amp import GradScaler, autocast
 from tqdm import tqdm
 import yaml
 import random
-from torch.optim.lr_scheduler import get_linear_schedule_with_warmup
+from transformers import get_linear_schedule_with_warmup
 
 from model import create_model
 from data_loader import get_data_loaders
