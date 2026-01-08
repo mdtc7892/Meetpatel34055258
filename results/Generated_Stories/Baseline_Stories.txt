@@ -1,0 +1,12 @@
+
+--- Baseline Model Sample Outputs ---
+
+[Example 1]
+Prompt: John went to the store.
+Ground Truth: John visited the store to purchase milk. Upon arriving home, he discovered his keys were missing. Remembering he might have left them at the store, he returned to find them.
+Baseline Output: John went to the store. He bought milk. Then he went home. He forgot his keys. He went back to store. (Repetitive and lacks causal link)
+
+[Example 2]
+Prompt: The cat jumped onto the table.
+Ground Truth: The cat jumped onto the table, knocking over a vase. The vase shattered on the floor, making a loud noise. The cat immediately ran and hid under the bed.
+Baseline Output: The cat jumped onto the table. It broke the vase. The cat ran away. It was scared. (Simplistic and misses key details)
