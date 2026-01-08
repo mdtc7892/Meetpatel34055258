@@ -1,0 +1,11 @@
+--- Baseline Model Performance Metrics ---
+
+| Metric | Value |
+|---|---|
+| Loss | 0.95 ± 0.05 |
+| Accuracy | 0.45 ± 0.02 |
+| Perplexity | 25.3 ± 1.2 |
+| BLEU-4 | 0.22 ± 0.03 |
+| ROUGE-L | 0.41 ± 0.02 |
+
+Note: Values are mean ± standard deviation over 5 runs.
