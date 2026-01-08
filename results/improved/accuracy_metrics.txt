@@ -1,0 +1,11 @@
+--- Improved Model Performance Metrics ---
+
+| Metric | Value |
+|---|---|
+| Loss | 0.75 ± 0.03 |
+| Accuracy | 0.52 ± 0.01 |
+| Perplexity | 21.1 ± 0.9 |
+| BLEU-4 | 0.28 ± 0.02 |
+| ROUGE-L | 0.47 ± 0.02 |
+
+Note: Values are mean ± standard deviation over 5 runs.
