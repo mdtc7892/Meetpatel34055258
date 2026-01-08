@@ -1,0 +1,4 @@
+"Model","BLEU-4","ROUGE-1","ROUGE-2","Perplexity","Repetition Rate","Coherence Score","Training Time (hrs)"
+"Baseline","0.183","0.321","0.145","25.3","0.254","3.2","8.5"
+"RAA-Improved","0.206","0.372","0.178","18.7","0.087","4.1","9.2"
+"Improvement","+12.6%","+15.9%","+22.8%","-26.1%","-65.7%","+28.1%","+8.2%"
